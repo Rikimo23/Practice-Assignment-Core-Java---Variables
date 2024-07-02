@@ -12,13 +12,13 @@ public class DivisionAndCast {
         divisionResult = num2 / num1;
     }
 
-    // Print out the initial division result (as double)
+
     System.out.println("Division result (double): " + divisionResult);
 
-    // Cast the division result to an integer
+
     int intResult = (int) divisionResult;
 
-    // Print out the result after casting to an integer
+
     System.out.println("Division result (integer after casting): " + intResult);
 }
 

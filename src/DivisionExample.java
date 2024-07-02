@@ -13,17 +13,17 @@ public class DivisionExample {
             result = (double) num2 / num1;
         }
 
-        // Print out the initial result
+
         System.out.println("Initial division result (integers): " + result);
 
-        // Change the larger number to a decimal
+
         num1 = 20;
-        double decimalNum2 = 5.0; // Changing num2 to a decimal
+        double decimalNum2 = 5.0;
 
-        // Recalculate the division with a decimal number
-        result = num1 / decimalNum2; // No need for casting as num1 is already an int
 
-        // Print out the updated result
+        result = num1 / decimalNum2;
+
+
         System.out.println("Updated division result (one number as decimal): " + result);
     }
 
